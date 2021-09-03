@@ -1,0 +1,11 @@
+name: MigratorVerifier
+version: '${project.version}'
+main: com.danikvitek.migratorverifier.MigratorVerifier
+api-version: 1.16
+authors: [ Danik_Vitek ]
+softdepend:
+  - LuckPerms
+
+permissions:
+  migratorverifier.migrator.verified:
+    default: false
